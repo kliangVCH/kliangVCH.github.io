@@ -1,0 +1,78 @@
+.textStyle {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 1.3em;
+    color: #747475;
+}
+.textLeft {
+    text-align: left;
+}
+.textRight {
+    text-align: right;
+}
+.callout {
+    color: #2991c0;
+    font-weight: 700;
+}
+#circulargraph {
+    display: flex;
+    margin: auto;
+}
+.textBox {
+    margin: auto;
+    float: right;
+    align-content: center;
+    width: 600px;
+    height: 200px;
+}
+.pc1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.pc1 svg:before {
+    content: #d2e0e0;
+    display: block;
+}
+.pc1 svg {
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.pc1 svg .percent-circle-inner {
+    fill: #dbdbdb;
+    stroke: #2991c0;
+    stroke-width: 80px;
+    stroke-dasharray: 0 628.318px;
+    transition: stroke-dasharray 1s ease-out 0.2s;
+}
+.pc1:after {
+    content: attr(data-percent) "%";
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-radius: 50%;
+    color: #2991c0;
+    text-align: center;
+    line-height: 120px;
+    font-size: 40px;
+}
+.hidden {
+    display: none;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

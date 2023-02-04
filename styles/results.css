@@ -1,0 +1,204 @@
+#infographic {
+    position: relative;
+    color: #fff;
+    background: #4d4d4d;
+    padding: 20px;
+}
+#barcharts {
+    position: relative;
+    float: left;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 80px;
+    margin-bottom: 10px;
+}
+#carcharts {
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 5%;
+}
+#car {
+    animation-duration: 10s;
+    animation-name: goRight;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    margin-top: 100px;
+}
+@keyframes goRight {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(calc(50vw - 800px), 0);
+    }
+}
+#averageEmission h5 {
+    font-size: 12px;
+    position: relative;
+    left: center;
+    text-align: center;
+    top: 50px;
+}
+#yourEmission h5 {
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+#areacharts {
+    position: relative;
+    clear: both;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    height: 340px;
+}
+#chart1label {
+    width: 50%;
+    float: left;
+}
+#areacharts h2 {
+    font-family: "Futura Md BT", helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 0.9em;
+    text-align: right;
+}
+#chart1label h2 {
+    font-family: "Futura Md BT", helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 6em;
+    line-height: 0.9em;
+}
+#chart1label h2 span {
+    display: block;
+    font-family: "Futura Lt BT", helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.3em;
+    line-height: 1em;
+}
+#chart1 {
+    position: relative;
+    width: 210px;
+    height: 400px;
+}
+#chart1 {
+    float: left;
+}
+#chart3 {
+    float: right;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    width: 420px;
+}
+#chart1_bar1,
+#chart1_bar2 {
+    position: absolute;
+    bottom: 0;
+}
+#chart1_bar1 {
+    left: 0;
+}
+#chart1_bar2 {
+    right: 0;
+}
+.men {
+    background: #00a99d;
+    color: #000;
+    text-align: left;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+}
+.women {
+    background: #ed1e79;
+    color: #000;
+    text-align: left;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+}
+.money {
+    background: #afceb3;
+    width: 200px;
+}
+.datavalue {
+    position: relative;
+    font-family: "Futura Md BT", helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 0.9em;
+    margin-bottom: 10px;
+}
+.datavalue .label {
+    display: block;
+    font-family: "Futura Lt BT", helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.3em;
+    line-height: 1em;
+}
+#barcharts .label {
+    position: absolute;
+    bottom: -20px;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+}
+#areacharts #chart3 .label {
+    position: absolute;
+    bottom: -20px;
+    color: #fff;
+    text-align: center;
+}
+#chart3_area2 {
+    min-width: 50px;
+    min-height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+#chart3_area2 {
+    background-color: #fff;
+    background-clip: content-box;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    margin: 10px;
+    padding: 20px;
+    border-bottom: 2px dashed #000;
+}
+#borderLeft {
+    border-left: 2px dashed #000;
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: -1%;
+}
+#icemelt {
+    color: #000;
+}
+#attribution {
+    clear: both;
+    text-align: right;
+    font-size: 2em;
+}
+#percentchange {
+    position: absolute;
+    bottom: 50px;
+    left: 75%;
+    margin-left: -60px;
+    width: 120px;
+    font-family: "Futura Md BT", helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 0.9em;
+    margin-bottom: 10px;
+}
+#percentchange span {
+    display: block;
+    font-family: "Futura Lt BT", helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.3em;
+    line-height: 1em;
+}
+
